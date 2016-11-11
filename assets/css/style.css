@@ -1,0 +1,87 @@
+/********Character Image Styling***********/
+#charContainer {
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	display: inline-block;
+	border: 5px solid gray;
+
+
+
+}
+
+#charContainer img{
+	height: auto;
+	width: 200px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+
+}
+
+
+
+.marine {
+	height: auto;
+	width: 450px !important;
+	position: relative !important;
+	top: 50% !important;
+	transform: translateY(-55%) !important;
+	right: 50%;
+}
+
+.beserker {
+	height: auto;
+	width: 450px !important;
+	position: relative !important;
+	top: 50% !important;
+	transform: translateY(-60%) !important;
+	right: 40%;
+
+}
+
+.directions1, .directions2{
+	text-align: center;
+}
+
+#charContainer:hover { 
+    border: 5px solid yellow;
+}
+
+
+#charContainer img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#charContainer img:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+/************************************************/
+
+/*************Background Image***********************************/
+body.container  {
+	background-image: url("http://www.emiwebdesign.com/wp-content/uploads/2015/04/starwars-stars2.jpg");
+	background-size: auto 1000px;
+    background-color: black;
+
+   }
+
+/*************Font Color******************/
+
+#text {
+	color: white;
+
+}
+h3.directions2 {
+	color: gray;
+}
+
+h3.directions2{
+	margin: 20px 0px 50px 0px;
+}
+
+/*******************************/
