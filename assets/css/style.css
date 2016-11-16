@@ -1,121 +1,81 @@
-/********Character Image Styling***********/
-#charContainer {
-	height: 200px;
-	width: 200px;
-	overflow: hidden;
-	display: inline-block;
-	border: 5px solid gray;
-	position: absolute;
-
-
+.crystalButtons{
+	height: 150px;
+	width: 150px;
+	border: 5px solid black;
+	padding: 4px 4px;
+	border: 4px solid black;
+	
 
 }
 
-#charContainer img{
-	height: auto;
-	width: 200px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	display: inline-block;
-
+#header {
+background-color: orange;
+width: 40%;
+text-align: center;
+margin-left: 300px;
+border: 4px solid black;
 }
 
-
-
-.marine {
-	height: auto;
-	width: 450px !important;
-	position: relative !important;
-	top: 50% !important;
-	transform: translateY(-55%) !important;
-	right: 50%;
+#instructions {
+	background-color: yellow;
+	width: 80%;
+text-align: center;
+margin-left: 110px;
+border: 4px solid black;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
-.beserker {
-	height: auto;
-	width: 450px !important;
-	position: relative !important;
-	top: 50% !important;
-	transform: translateY(-60%) !important;
-	right: 40%;
-
-}
-
-.directions1, .directions2{
-	text-align: center;
-}
-
-#charContainer:hover { 
-    border: 5px solid yellow;
-}
-
-
-#charContainer img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-#charContainer img:hover {
-	-webkit-filter: blur(0);
-	filter: blur(0);
-}
-
-
-
-
-
-
-
-
-
-
-/************************************************/
-
-/*************Background Image***********************************/
-body.container  {
-	background-image: url("http://www.emiwebdesign.com/wp-content/uploads/2015/04/starwars-stars2.jpg");
-	background-size: auto 1000px;
-    background-color: black;
-
-   }
-
-/*************Font Color******************/
-
-#text {
+.randomContain {
+	background-color: black;
 	color: white;
+	width: 250px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	margin: 10px 10px;
+	height: 250px;
 
 }
-h3.directions2 {
-	color: gray;
+
+#number {
+font-size: 80px;
+text-align: center;
+
 }
 
-h3.directions2{
-	margin: 20px 0px 50px 0px;
+.score {
+	background-color: #dd2c99;
+	width: 150px;
+	color: pink;
+	float: left;
+	text-align: center;
+	height: 180px;
+	margin: 10px 10px;
+	border: 4px dotted black;
+	
 }
 
-/*******************************/
-
-/*PREDATOR BUTTON************/
-
-input.predator {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-input.predator:hover {
-	-webkit-filter: blur(0);
-	filter: blur(0);
+.buttons{
+	float: left;
 }
 
-input.predator{
-	height: auto;
-	width: 200px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	display: inline-block;
+#redcrystal {
+clear: both;
 
+}
+
+#orangecrsytal {
+	clear: both;
+}
+
+#score {
+	background-color: gray;
+	width: 300px;
+	text-align: center;
+
+}
+
+#totalScore {
+	font-size: 100px;
 }

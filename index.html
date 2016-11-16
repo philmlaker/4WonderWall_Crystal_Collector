@@ -1,69 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
-	<!-- NEED TO LINK TO MEYER RESET CSS FILE -->
-	<link rel="stylesheet" type="text/css" href="theme.css"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 
-	
 
-	<script
-	  src="https://code.jquery.com/jquery-3.1.1.js"
-	  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-	  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 
 
-<head>
-	<meta charset="UTF-8">
-	<title>Aliens vs Predator RGP</title>
 </head>
-<body class="container">
-		<button>Start Animation</button>
-	
-		<div class="row"> <h1 class="directions1"><p id="text"> Choose Your Player </p> </h1></div>
+<body>
 
-		<div class="row"><h3 class="directions2"> hover over a character for more info </h3></div>
-	
-	<div class ="row">
-		<div class ="col-md-3">
-			<div id="charContainer">
-				<input type="image" class ="predator" src="http://orig10.deviantart.net/1441/f/2007/208/3/d/predator___by_adonihs.jpg" onclick="your_function();" />
-			</div>
-		</div>
+<div id="header">
+	<h1> Crystal Collector! </h1>
+</div>
 
-	<div>
+<div id="instructions">
+		<p> You will be given a random number at the start of the game </p> <br/>
+		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p> </br>
+		<p> You win the game by matching your total score to the random number, you lose the game if you total score goes above the randome number. </p> </br>
+		<p> The value of each cyrstal is hidden from you until you click on it</p> </br>
+		<p> Each time when the game starts, the gmae will change the value of each crystal</p>
+</div>
+
+
+<div class="randomContain">
+	<h2> Random Number: </h2> 
+	<div id="number"></div>
+</div>
+
+	</br>
+	</br>
+
+<div class="score">
+	
+	<p>Total Wins: </p>
+<div id="totalWin"> 0 </div>
+	<p>Total Losses: </p>
+	<div id="totalLoss">0</div> 
+</div>
+
+<div class="buttons">
+
+	<button id = "redcrystal"><img src="assets/images/redcrystal.jpg" id="redcrystal" height="200px" width="200px"></button>
+
+	<button id = "tealcrystal"><img src="assets/images/tealcrystal.jpg" height="200px" width="200px"></button>
+
+	<button id = "yellowcrystal"><img src="assets/images/yellowcrystal.jpg"  height="200px" width="200px"></button>
+
+	<button id = "orangecrystal"><img src="assets/images/orangecrystal.jpg" height="200px" width="200px"></button>
+		<div class="red">
+</div>
+
+
+<div id="score">
+<h2> Your total score is: </h2>
+<div id="totalScore">0</div>
+</div>
+
+<script src="assets/javascript/game.js"></script>
 		
-	</div>
-
-
-
-
-
-
-
-
-
-
-	</div>
-
-<!-- ****************************************** -->
-
-<script>
-// <!-- ****************************************** -->
-$("button").click(function(){
-    $(".predator, #charContainer").animate({
-        left: '300px'
-    });
-}); 
-
-
-
-
-
-
-</script>
-
-
 </body>
 </html>
