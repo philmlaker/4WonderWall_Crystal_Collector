@@ -7,7 +7,7 @@
 
 Overview
 
-In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
+In this assignment, I created an interactive game for web browsers built on HTML, CSS, Javascript and JQuery. This app dynamically updates my HTML page with the jQuery library.
 
 See a 1 minute working version here:
 
