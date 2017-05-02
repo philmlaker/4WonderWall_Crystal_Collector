@@ -333,9 +333,9 @@ background:url(http://i.imgur.com/2T5M8.png?1);
 }
 
 #buttonContainer{
-    border: 10px solid pink;
+   
     height: 150px;
-    width: 611px;
+    width: auto;
     text-align: center;
     margin: 25px auto;
 
