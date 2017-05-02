@@ -7,7 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Boogaloo|Covered+By+Your+Grace" rel="stylesheet">
+	<script src="./assets/javascript/instructions.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -17,24 +20,53 @@
 	<div class="sparkle"></div>
 	<h1>The WonderWall Crystal Collector! </h1>
 	<div id="sparkle2"></div>
+		<div id="sparkle3"></div>
+
+</div>
+
+<div id="instructionButtonContainer">
+<button id="instructionButton">INSTRUCTIONS</button>
 </div>
 
 <div id="instructions">
-		<p> You will be given a random number at the start of the game </p> <br/>
-		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p> </br>
-		<p> You win the game by matching your total score to the random number, you lose the game if you total score goes above the randome number. </p> </br>
-		<p> The value of each cyrstal is hidden from you until you click on it</p> </br>
-		<p> Each time when the game starts, the gmae will change the value of each crystal</p>
+
+		<p> You will be given a random number at the start of the game.</p>
+		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p> 
+		<p> You win the game by matching your total score to the random number, you lose the game if you total score goes above the randome number. </p> 
+		<p> The value of each cyrstal is hidden from you until you click on it.</p> 
+		<p> The value of the crystals changes with every game. Good luck!</p>
 </div>
 
 
 <div class="randomContain">
-	<h2> Random Number: </h2> 
+	<h2 id="randNumHead"> Random Number: </h2> 
 	<div id="number"></div>
 </div>
 
-	</br>
-	</br>
+<div id="score1">
+<h2 id="score1Head"> Your Number Total: </h2>
+<div  class="blink_me" id="totalScore">0</div>
+</div>
+
+
+<div id="arrow">
+<h2 id="clickCrystal"> CLICK A CRYSTAL BELOW TO START! </h2>
+
+
+<div class="bounce"><i class="fa fa-angle-double-down"></i></div>
+</div>
+<div id="buttonContainer" class="buttons">
+
+
+	<button class="buttonJPG" id = "redcrystal"><img src="assets/images/redcrystal.jpg" id="redcrystal"></button>
+
+	<button class="buttonJPG" id = "tealcrystal"><img src="assets/images/tealcrystal.jpg" ></button>
+
+	<button class="buttonJPG" id = "yellowcrystal"><img src="assets/images/yellowcrystal.jpg"></button>
+
+	<button class="buttonJPG" id = "orangecrystal"><img src="assets/images/orangecrystal.jpg"></button>
+		<div class="red">
+</div>
 
 <div class="score">
 	
@@ -44,23 +76,6 @@
 	<div id="totalLoss">0</div> 
 </div>
 
-<div class="buttons">
-
-	<button id = "redcrystal"><img src="assets/images/redcrystal.jpg" id="redcrystal" height="200px" width="200px"></button>
-
-	<button id = "tealcrystal"><img src="assets/images/tealcrystal.jpg" height="200px" width="200px"></button>
-
-	<button id = "yellowcrystal"><img src="assets/images/yellowcrystal.jpg"  height="200px" width="200px"></button>
-
-	<button id = "orangecrystal"><img src="assets/images/orangecrystal.jpg" height="200px" width="200px"></button>
-		<div class="red">
-</div>
-
-
-<div id="score">
-<h2> Your total score is: </h2>
-<div id="totalScore">0</div>
-</div>
 
 <script src="assets/javascript/game.js"></script>
 

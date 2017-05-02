@@ -20,7 +20,10 @@ $(document).ready(function() {
 	
 	initialize();
 
-	$("button").click(function(){
+	$(".buttonJPG").click(function(){
+		$("#arrow").fadeOut( "slow", function() {
+    // Animation complete.
+  });
 		console.log($(this).attr("value"));
 		console.log($(this).attr("id"));
 		var a = parseInt($(this).val());
