@@ -7,7 +7,7 @@
 
 Overview
 
-In this assignment, I created an interactive game for web browsers built on HTML, CSS, Javascript and JQuery. This app dynamically updates my HTML page with the jQuery library.
+In this assignment, I created an interactive game for web browsers built on HTML, CSS, Javascript and JQuery. This app dynamically updates the HTML page with the jQuery library.
 
 See a 1 minute working version here:
 
