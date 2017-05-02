@@ -9,7 +9,7 @@ Overview
 
 In this assignment, I created an interactive game for web browsers built on HTML, CSS, Javascript and JQuery. This app dynamically updates the HTML page with the jQuery library.
 
-See a 1 minute working version here:
+See a quick 1 minute working version here:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YUXoiNcaWGc
 " target="_blank"><img src="http://img.youtube.com/vi/YUXoiNcaWGc/0.jpg" 
